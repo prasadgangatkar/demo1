@@ -1,8 +1,9 @@
 pipeline
 {
-    agent
-    {
-        node {
+  agent
+        {
+        node
+            {
             label 'slave'
             }
         }
@@ -12,7 +13,7 @@ pipeline
     stages {
         stage ('clean up') {
             steps {
-                echo 'delete dir'
+                echo 'delete directoy'
                 deleteDir()
             } 
         
