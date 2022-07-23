@@ -1,4 +1,5 @@
-pipeline {
+pipeline
+{
     agent {
         node {
             label 'slave'
